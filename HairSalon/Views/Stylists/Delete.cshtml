@@ -1,0 +1,12 @@
+@model HairSalon.Models.Stylist
+
+<h2>Stylist Leaving?</h2>
+
+@Html.DisplayNameFor(model => model.Name) : @Html.DisplayFor(model => model.Name)
+
+@using (Html.BeginForm())
+{
+  <input type = "submit" value = "Delete"/>
+}
+
+<p>@Html.ActionLink("Stylists", "Index")</p>
