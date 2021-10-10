@@ -33,11 +33,14 @@ A C# application that allows Eau Clair to see all of her stylists and clients as
 1. in your terminal cd into the file HairSalon
 2. type in `touch appsettings.json` 
 3. input the following code below where it says password means the password for MySql workbench that you have set up and uid is the user id you've set up in MySql workbench
-4. ``` {
+4. 
+```
+{
   "ConnectionStrings": {
     "DefaultConnection": "Server=localhost;Port=3306;database=amerik_velasquez;uid=[userid];pwd=[Password];"
   }
-} ``` 
+}
+```  
 
 5. after that is complete to run the application cd into HairSalon and imput `dotnet run` in your terminal 
 6. when it finishes you should see `Now listenin on: http://localhost:5000 ` CTRL click that and view the application in the browser
